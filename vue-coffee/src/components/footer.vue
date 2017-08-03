@@ -14,6 +14,8 @@ export default {
 
 <style scoped>
 #page-bottom{
-  background:#bd793d;
+    color: #fff;
+    background:#bd793d;
+    height: 30px;
 }
 </style>

@@ -1,5 +1,7 @@
 <template>
-<h1 id='main-header'> {{this.headerText}} </h1>
+<header id='main-header'>
+<h1 id="headline"> {{this.headerText}} </h1>
+</header>
 </template>
 
 
@@ -20,5 +22,14 @@ export default {
 <style scoped>
 #main-header {
     background: #bd793d;
+    height: 100px;
+}
+#headline{
+    color: #fff;
+    position: relative;
+    float: left;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>

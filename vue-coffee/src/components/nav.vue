@@ -1,7 +1,7 @@
 <template>
  <nav>
     <ul>
-        <li><router-link to='/' exact> History </router-link></li>
+        <li><router-link to='/history' exact> History </router-link></li>
         <li><router-link to='/recipes' exact> Recipes </router-link></li>
     </ul>
  </nav>
