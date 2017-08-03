@@ -2,9 +2,8 @@
   <div>
     <app-nav></app-nav>
     <app-header></app-header>
-    <h1>{{ msg }}</h1>
 
-    text
+     <router-view></router-view>
 
     <app-footer></app-footer>
   </div>
@@ -31,7 +30,6 @@ export default {
 
   data () {
     return {
-      msg: 'Welcome to CoffeeLand'
     }
   }
 }
@@ -39,30 +37,10 @@ export default {
 
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
+body{
+    margin:0;
+    box-sizing: border-box;
+    background: #f0d4bb;
+    color: #626173;
 }
 </style>

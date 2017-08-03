@@ -1,5 +1,5 @@
 <template>
-<footer>FOOTER</footer>
+<footer id="page-bottom">FOOTER</footer>
 </template>
 
 
@@ -13,5 +13,7 @@ export default {
 
 
 <style scoped>
-
+#page-bottom{
+  background:#bd793d;
+}
 </style>
