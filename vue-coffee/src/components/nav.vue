@@ -33,6 +33,7 @@ a{
     padding: 6px 8px;
     border-radius: 10px;
 }
+
 nav{
     background:#fff3e7;
     color: #626173;
