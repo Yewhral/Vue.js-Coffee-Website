@@ -7,7 +7,7 @@
         <section id="inner-grid">
             <div id="ingredients"> <h3 class=recipe-category> ingredients: </h3></div>
             <div id="drawing"> <img> an image with a subtitle </img> </div>
-            <div id="recipe"> <h3> recipe: </h3> <singleRecipe></singleRecipe> </div>
+            <div id="recipe"> <h3> {{recipe.name}} : </h3> <singleRecipe></singleRecipe> </div>
         </section>
     </section>
 
@@ -22,6 +22,13 @@ import singleRecipe from './singleRecipe.vue'
 export default {
     components: {
         'singleRecipe' : singleRecipe
+    },
+    data(){
+        return{
+            recipe:{
+                name: 'Coffee Latte'
+            }
+        }
     }
 }
 
@@ -67,13 +74,13 @@ export default {
 }
 #drawing{
      background: #fae0c8;
-     grid-column: 2;
+     grid-column: 2/4;
      grid-row: 1/2;
      padding: 20px;
 }
 #recipe{
      background: #fae0c8;
-     grid-column: 1/3;
+     grid-column: 1/4;
      grid-row: 2/4;
      padding: 20px;
 }
